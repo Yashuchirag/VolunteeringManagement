@@ -1,0 +1,42 @@
+{
+  "name": "Volunteers Management Platform",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"python Backend/src/Main/server.py\" \"cd Web_app && react-scripts start\"",
+    "build": "cd Web_app && react-scripts build",
+    "test": "cd Web_app && react-scripts test",
+    "eject": "cd Web_app && react-scripts eject",
+    "heroku-postbuild": "pwd && ls -la && npm install && npm run build"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  },
+  "jest": {
+    "testMatch": [
+      "**/src/test/**/*.(spec|test).[jt]s?(x)"
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/main/$1"
+    }
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^15.0.2",
+    "@testing-library/user-event": "^14.5.2"
+  }
+}
