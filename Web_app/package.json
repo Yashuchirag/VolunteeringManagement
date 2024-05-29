@@ -1,0 +1,38 @@
+{
+  "name": "Volunteers Management Platform",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm install && npm run build"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  },
+  "jest": {
+    "testMatch": [
+      "**/src/test/**/*.(spec|test).[jt]s?(x)"
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/main/$1"
+    }
+  }
+  
+}

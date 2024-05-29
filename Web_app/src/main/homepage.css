@@ -1,0 +1,79 @@
+.homepage-container {
+    padding: 20px;
+    height: calc(100vh - 200px);
+    overflow-y: auto; 
+}
+
+.heading {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #010388;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.message {
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    /* color: brown; */
+}
+
+.event-card {
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+    height: auto;
+}
+
+.event-name {
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.event-description {
+    margin-bottom: 10px;
+}
+
+.event-date-time {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight:550;
+    color: darkgreen;
+}
+
+.register-button {
+    float: right; 
+    margin-right: 45px; 
+    padding: 5px 10px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.register-button:hover {
+    background-color: #0056b3; 
+}
+
+.volunteer-count {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}

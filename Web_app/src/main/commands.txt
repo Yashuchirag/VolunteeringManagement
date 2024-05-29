@@ -1,0 +1,6 @@
+Created login.js and app.js files with code in login.js for the login page and app.js to run the code
+
+cretaed package.json which has the script that runs the app
+created index.js, index.html needed for the app to run
+
+npm install react-scripts --save
