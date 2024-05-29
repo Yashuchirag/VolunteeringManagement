@@ -1,0 +1,1 @@
+web: python src/main/Data_analyzer_app.py
